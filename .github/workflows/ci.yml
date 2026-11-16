@@ -12,7 +12,6 @@ on:
       - "tests/**"
       - "vite.config.ts"
       - "tsconfig.json"
-      - ".github/workflows/ci.yml"
   pull_request:
     paths:
       - "package.json"
@@ -23,7 +22,6 @@ on:
       - "tests/**"
       - "vite.config.ts"
       - "tsconfig.json"
-      - ".github/workflows/ci.yml"
 
 permissions:
   contents: read
